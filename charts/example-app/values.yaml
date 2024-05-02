@@ -1,0 +1,14 @@
+replicaCount: 1
+image:
+  repository: dpewsey/example-app
+  pullPolicy: IfNotPresent
+  tag: "latest"
+nameOverride: ""
+fullnameOverride: ""
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+service:
+  type: ClusterIP
+  port: 80
