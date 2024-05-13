@@ -4,7 +4,7 @@ metadata:
   name: {{ include "example-app.fullname" . }}
 spec:
   rules:
-  - host: example-app.example.com 
+  - host: example-app.testing.altmetric.net 
     http:
         paths:
           - pathType: Prefix
